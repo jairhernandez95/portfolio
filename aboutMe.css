@@ -64,13 +64,9 @@ main
     grid-template-columns: 10% 80% 10%;
     align-items: center;
 }
-.mainDivDivRight2Div2 > h3
+.mainDivDivRight2Div2 > p
 {
     font-size: 40px;
-}
-.mainDivDivRight2Div2 > h1
-{
-    font-size: 80px;
 }
 .area{
     background: rgb(131,58,180);
