@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+header
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    flex-grow: 1;
+    height: 15vh;
+    font-size: 20px;
+}
+.headerName
+{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+    justify-items: left;
+}
+.headerName > div > p
+{
+    display: none;
+}
+.headerOptions
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    justify-items: center;
+}
+.headerOptions > p
+{
+    cursor: pointer;
+}
+main
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 85vh;
+}
+.mainDivLeft
+{
+    display:grid;
+    grid-template-rows: 20% 60%  20%;
+}
+.mainDivDivLeft2
+{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+}
+.mainDivDivLeft2Div2 > h3
+{
+    font-size: 40px;
+}
+.mainDivDivLeft2Div2 > h1
+{
+    font-size: 80px;
+}
+.mainDivRight
+{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: auto;
+}
+.mainDivRight > img
+{
+    display: none;
+    height: 85vh;
+}
+.area{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 100%;
+    height:100vh;
+    position:fixed;
+    z-index: -1; 
+}
